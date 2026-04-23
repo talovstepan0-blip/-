@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pluteus</string>
+    <string name="home">Главная</string>
+    <string name="add">Добавить</string>
+    <string name="profile">Профиль</string>
+    <string name="movies">Фильмы</string>
+    <string name="series">Сериалы</string>
+    <string name="books">Книги</string>
+    <string name="all">Все</string>
+    <string name="planned">Планирую</string>
+    <string name="watching">Смотрю</string>
+    <string name="reading">Читаю</string>
+    <string name="completed">Просмотрено</string>
+    <string name="read">Прочитано</string>
+    <string name="search_hint">Поиск названия...</string>
+    <string name="title">Название</string>
+    <string name="author">Автор / Режиссёр</string>
+    <string name="status">Статус</string>
+    <string name="progress">Прогресс</string>
+    <string name="rating">Оценка</string>
+    <string name="review">Отзыв</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Редактировать</string>
+    <string name="add_manual">Добавить вручную</string>
+    <string name="search_api">Поиск через API</string>
+    <string name="no_results">Ничего не найдено</string>
+    <string name="loading">Загрузка...</string>
+    <string name="error">Ошибка</string>
+    <string name="retry">Повторить</string>
+    <string name="total_episodes">Всего серий</string>
+    <string name="watched_episodes">Просмотрено серий</string>
+    <string name="total_pages">Всего страниц</string>
+    <string name="read_pages">Прочитано страниц</string>
+    <string name="select_image">Выбрать изображение</string>
+    <string name="auto_fill">Автозаполнение</string>
+    <string name="sort_by">Сортировать по</string>
+    <string name="date_added">Дата добавления</string>
+    <string name="name">Название</string>
+    <string name="rating_sort">Оценке</string>
+    <string name="ascending">По возрастанию</string>
+    <string name="descending">По убыванию</string>
+    <string name="filter">Фильтр</string>
+    <string name="statistics">Статистика</string>
+    <string name="total_items">Всего записей</string>
+    <string name="tmdb_api_key" translatable="false">YOUR_TMDB_API_KEY</string>
+    <string name="google_books_api_key" translatable="false">YOUR_GOOGLE_BOOKS_API_KEY</string>
+</resources>
