@@ -1,0 +1,27 @@
+```
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+xcuserdata/
+
+# Swift
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+
+# Build
+build/
+DerivedData/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies
+node_modules/
+Pods/
+Carthage/
+.swiftlint.yml
+```
