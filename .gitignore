@@ -1,29 +1,16 @@
 ```
-# Android build artifacts
+# Android build outputs
 *.apk
 *.aar
-*.jar
-*.dex
-
-# Android build directories
+*.ap_
+app/build/
 build/
-.gradle/
-local.properties
-
-# Android Studio
-.idea/
-*.iml
-*.iws
-*.log
 
 # Gradle
 .gradle/
-!Pluteus/.gradle/
-!Pluteus/app/.gradle/
-
-# Compiled Kotlin/Java
-*.class
-*.dex
+!gradle.properties
+!gradlew
+!gradlew.bat
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -31,23 +18,78 @@ local.properties
 # Log Files
 *.log
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Android Studio Navigation editor temp files
+.navigation/
 
-# Environment variables
-.env
-.env.local
-*.env.*
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
 
-# Coverage
-coverage/
-*.gcov
-*.lcov
-*.profdata
+# Keystore files
+*.jks
+*.keystore
+
+# Debug & Release Folders
+debug/
+release/
+
+# Generated files
+gen/
+out/
+
+# Proguard
+proguard/
+
+# Android cache
+.cache/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
 
 # Temporary files
 *.tmp
 *.temp
-*~
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Coverage reports
+coverage/
+*.lcov
+*.profdata
+
+# Python related (if any Python tools used)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.so
+
+# Node.js (if any web components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
 ```
