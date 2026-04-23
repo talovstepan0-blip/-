@@ -1,27 +1,53 @@
 ```
-# Xcode
-*.xcodeproj/
-*.xcworkspace/
-*.xcuserstate
-xcuserdata/
+# Android build artifacts
+*.apk
+*.aar
+*.jar
+*.dex
 
-# Swift
-*.swiftmodule
-*.swiftdoc
-*.swiftsourceinfo
-
-# Build
+# Android build directories
 build/
-DerivedData/
+.gradle/
+local.properties
 
-# Environment
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.log
+
+# Gradle
+.gradle/
+!Pluteus/.gradle/
+!Pluteus/app/.gradle/
+
+# Compiled Kotlin/Java
+*.class
+*.dex
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
 .env
 .env.local
 *.env.*
 
-# Dependencies
-node_modules/
-Pods/
-Carthage/
-.swiftlint.yml
+# Coverage
+coverage/
+*.gcov
+*.lcov
+*.profdata
+
+# Temporary files
+*.tmp
+*.temp
+*~
 ```
